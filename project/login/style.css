@@ -10,6 +10,7 @@
     padding: 0;
 }
 
+
 .img-bg img{
     width: 100%;
     height: 100%;
@@ -114,10 +115,13 @@
     color: #ff4584;
 }
 
+
 .content .social img{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     margin-top: 30px;
     border-radius: 50px;
     padding: 10px;
+    justify-content: center;
+    padding: 5px;
 }
