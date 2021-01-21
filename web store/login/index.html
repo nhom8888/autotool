@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container-fluid">		
+			<div class="row">
+				<div class="col col-sm-9 img-bg" >
+                    <img src="img/musicbg.jpeg" alt="">
+                    <div class="left-col">
+                        <h1>THE <br> REAL <br> SOUND</h1>
+					</div>
+					<div class="right-col">
+						<p>Click here to listen</p>
+						<img src="img/playsong.jpg" alt=""  onclick="myFunction()">
+					</div>
+				</div>
+				<div class="content col-sm-3">
+					<form action="../html/index.html">
+						<h2>LOGIN</h2>
+						<hr>
+						<p class="input-bx">
+							Username<br>
+							<input type="text" id="fname" >
+						</p>
+						<p class="input-bx">
+							Password<br>
+							<input type="password" id="password">
+						</p>
+						<p class="remember">
+							<input type="checkbox" name="" id="check">
+							Remember me
+						</p>
+						<p>
+							<button  type="submit">Sign in</button>
+						</p>
+						<p class="sign-up">
+							Don't hane an account? <a href="signup.html">Sign up</a>
+						</p>
+						<div class="social">
+							<a href="#"><img src="img/fb.png" alt=""></a>
+							<a href="#"><img src="img/gp.png" alt=""></a>
+							<a href="#"><img src="img/tw.png" alt=""></a>
+						</div>
+					</form>
+				</div>
+			</div>
+			<audio id="mysong">
+				<source src="img/songmp3.mp3" type="audio/mp3">
+			</audio>		
+	</div>		
+	<script >
+		var mysong = document.getElementById("mysong")
+	
+		 function myFunction(){
+			if(mysong.paused){
+			mysong.play();
+			myFunction.src = "img/playsong.jpg";
+			}else{
+				mysong.pause();
+				myFunction.src = "img/playsong.jpg/"
+			}
+
+		}
+	</script>
+</body>
+</html>
