@@ -1,0 +1,198 @@
+*{
+  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.tryhome h1{
+    font-size: 50px;
+}
+.tryhome a{
+    text-decoration: none;
+    color: rgb(235, 18, 18);
+}
+.tryhome a:hover{
+    color: rgb(102, 113, 211);
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+ @-webkit-keyframes glow {
+  from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+    
+  to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rbga(0,0,0,0.04);
+    background-color: #dbd9d9;
+    
+    
+}
+.container h2{
+    color: rgb(20, 22, 22);
+    margin-top: 20px;
+}
+video{
+    height: 300px;
+}
+.list a{
+    color: rgb(228, 190, 190);
+    border-bottom: 1px solid white;
+    height:  100px;
+    line-height: 30px;
+    padding: 20px;
+}
+
+}
+.list{
+    width: 450px;
+    height: 500px;
+    background: #00000;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+nav h1{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+nav li {
+    list-style: none;
+}
+nav .menu{
+    display: flex
+}
+nav .menu li a{
+    font-family: 'Hachi Maru Pop', cursive;
+    
+    height: 40px;
+    text-decoration: none;
+    line-height: 7px;
+    margin: 10px;
+    padding:20px;
+    display: flex;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(238, 224, 210);
+   
+}
+nav  .bn{
+    border-radius:  rgb(189, 175, 175);
+}
+nav .menu li a:hover{
+
+    color: rgb(62, 134, 216);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rbga(0,0,0,0.04);
+    background-color: #dbd9d9;
+}
+nav h1{
+    font-family: 'Balsamiq Sans', cursive;
+}
+nav li {
+    list-style: none;
+}
+nav .menu{
+    display: flex
+}
+nav .menu li a{
+    font-size: 30px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 7px;
+    margin: 20px;
+    padding:20px;
+    display: flex;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(29, 24, 19);
+   
+}
+nav  .bn{
+    border-radius:  rgb(189, 175, 175);
+}
+nav .menu li a:hover{
+
+    color: rgb(117, 105, 105);
+}
+
+}
+.container {
+    margin:100px ;
+    background-color: rgb(158, 110, 61);
+  
+    
+}
+.container video{
+    width:750px;
+    height: 450px;
+    max-width: 100%;
+    
+}
+.list{
+    float: right;   
+}
+.list a{
+    text-decoration: none;
+    color: rgb(91, 129, 145);
+} 
+.list a:hover{
+    color: rgb(219, 128, 36);
+}
+.lyrics {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+}
+.btn{
+   height:400px;
+            width:200px;;
+            border:1px solid blue;
+}
+.lyric p{
+    color: rgb(58, 211, 203);
+    font-size: 30px;
+}
+.lyric{
+  
+}
+.lyric{
+    width:500px
+    line-height:5px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: floralwhite;
+    background-image: url("4.png")
+
+}
+body {
+  background-image: url("../img/4.png");
+  
+}
+details{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
